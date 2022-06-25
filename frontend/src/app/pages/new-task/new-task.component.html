@@ -1,0 +1,9 @@
+<div class="centered-content">
+    <div class="modal-box form-group">
+        <h1 class="title">Create a new task</h1>
+        <input #taskInput type="text" class="form-control has-background-light" placeholder="Enter task name">
+        <br>
+        <button class="btn white-text" routerLink="../">Cancel</button>
+        <button class="btn btn-primary" (click)="addTask(taskInput.value)">Add</button>
+    </div>
+</div>
